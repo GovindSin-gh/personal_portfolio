@@ -1,0 +1,153 @@
+*{
+    /*color:red;*/
+    margin: 0px;
+}
+body{
+    background-color: black;
+    /*border:10px solid #023047;*/
+    padding: 10px;
+    /*
+    display: flex;
+    flex-direction: column;*/
+}
+
+#name{
+    font-size: 200px;
+    color: white;
+}
+.common-part{
+    border-bottom: 2px solid white;
+    border-right:2px solid white;
+    border-left:2px solid white;
+}
+.part1{
+    display: flex;
+    padding: 4px;
+    justify-content: space-around;
+    background-color: crimson;
+    border-top:2px solid white;
+}
+#pic{
+    background-image: url("Profile.jpeg");
+    height: 242px;
+    width: 189px;
+    background-size: cover;
+}
+@keyframes animatePic{
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+#pic:hover{
+    animation: animatePic 3s ease-in infinite normal;
+}
+/*part2*/
+.part2{
+    background-color: #f4a261;
+    color:darkgray;
+    padding:10px;
+}
+.part2 em{
+    color:#bf5700
+}
+.part2 strong{
+    color: #bf5700;
+}
+.part2 h2{
+    display: inline;
+    color: #bf5700;
+}
+.part2 i{
+    font-size: 20px;
+    color:#bf5700
+}
+/*part3*/
+.part3{
+    padding: 10px;
+    background-color: #e9c46a;
+}
+.part3 h2{
+    display: inline;
+    color: #a47e00;
+}
+.part3 i{
+    font-size: 20px;
+    color: #a47e00;
+}
+.edu-table{
+    display: flex;
+    border:4px solid #a47e00;
+    width:fit-content;
+}
+.col-name{
+    font-weight: 700;
+    border-bottom: 2px solid #a47e00;
+    text-align: center;
+}
+.col1{
+    border-right:2px solid #a47e00;
+    display: inline;
+}
+.col2{
+    border-right:2px solid #a47e00;
+    display: inline;
+}
+.col3{
+    display: inline;
+}
+.row{
+    border-bottom: 2px solid #a47e00;
+    text-align: center;
+    padding: 5px;
+}
+.last-row{
+    text-align: center;
+}
+/*part4*/
+.part4{
+    background-color: #2a9d8f;
+    color: white;
+    padding: 10px;
+}
+.part4 h2{
+    color: #13796f;
+    display: inline;
+}
+.part4 i{
+    font-size:20px;
+    color: #13796f;
+}
+/*part5*/
+.part5{
+    background-color: #457b9d;
+    color: white;
+    padding: 10px;
+}
+.part5 h2{
+    color: #1d4c6f;
+    display:inline;
+}
+.part5 i{
+    color:#1d4c6f;
+    font-size:20px;
+}
+/*part6*/
+.part6{
+    background-color: #8d99ae;
+    color: white;
+    padding: 10px;
+}
+.part6 h2{
+    display:inline;
+    color: #5a6173;
+}
+.part6 i{
+    color: #5a6173;
+    font-size: 20px;
+}
+.part6 button{
+    background-color: #5a6173;
+}
